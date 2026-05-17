@@ -20,5 +20,4 @@ const aiInsightSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-
 export default mongoose.model("AIInsight", aiInsightSchema);
